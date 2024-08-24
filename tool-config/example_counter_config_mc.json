@@ -1,0 +1,17 @@
+{
+   "my-mc-counter-cnfg1": {
+      "path":"/path/to/my/counter.py",
+      "config":"--thisarg=1 --thatarg=2",
+      "exact":"True"
+   },
+   "my-mc-counter-cnfg2": {
+      "path":"/path/to/my/counter.py",
+      "config":"--thisarg=2 --thatarg=4",
+      "exact":"True"
+   },
+   "my-other-mc-counter": {
+      "path":"/path/to/my/other_counter",
+      "config":"",
+      "exact":"True"
+   }
+}

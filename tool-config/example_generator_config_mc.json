@@ -1,0 +1,10 @@
+{
+   "biere-mc": {
+      "path":"/path/to/SharpVelvet/generators/biere-fuzz",
+      "config":"{seed} 0 > {out_file}"
+   },
+   "brummayer-mc": {
+      "path":"/path/to/SharpVelvet/generators/cnf-fuzz-brummayer.py",
+      "config":"-I 21 -s {seed} -T 0 > {out_file}"
+   }
+}

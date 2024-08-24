@@ -1,0 +1,9 @@
+name: sharpvelvet
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - gmpy2
+  - pandas=2.2.2
+
