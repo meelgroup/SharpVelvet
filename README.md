@@ -44,7 +44,7 @@ Create a configuration file to communicate to the instance generation script (`s
 
 Make sure that, if your favourite generator takes a random seed as input, that you add `{seed}` to the configuration. Similarly, make sure that you use `{outfile}` to the configuration as a placeholder for the path where you want to write the generated `dimacs` instance to. If `{outfile}` is omitted, the fuzzer will simply add the path to the outfile as the last argument.
 
-If you want to use the (currently limited) support that `SharpVelvet` offers for turning `mc` problems into `wmc`, `pmc` or `pmc` problems, it's best to let the generator scripts generate `mc` problems.
+If you want to use the (currently limited) support that `SharpVelvet` offers for turning `mc` problems into `wmc`, `pmc` or `pwmc` problems, it's best to let the generator scripts generate `mc` problems.
 
 Also: each run of the fuzzer only processes one type of model counting, so it's best to have generators that generate only one particular type of model counting instance in the same run.
 
