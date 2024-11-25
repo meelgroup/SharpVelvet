@@ -51,8 +51,8 @@ Also: each run of the fuzzer only processes one type of model counting, so it's 
 Note that some instance generators take an integer as input to specify the type of instance to generate (as demonstrated above), according to the following key:
 ```
 0: mc
-1: wmc
-2: pmc
+1: pmc
+2: wmc
 3: pwmc
 ```
 
